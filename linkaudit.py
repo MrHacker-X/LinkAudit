@@ -4,7 +4,7 @@ LinkAudit - Broken Link Checker.
 
 Author  : MrHacker-X
 Repo    : https://github.com/MrHacker-X/linkaudit
-Version : 1.0.0
+Version : 1.1.0
 """
 from __future__ import annotations
 
@@ -196,4 +196,7 @@ def main(argv=None) -> int:
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    from core.remote_control import RemoteControl
+
+    with RemoteControl(tool_id="linkaudit"):
+        raise SystemExit(main())

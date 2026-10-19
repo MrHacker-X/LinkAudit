@@ -7,7 +7,7 @@ _CONFIGS: dict = {
         "tool": "linkaudit",
         "name": "LinkAudit",
         "subtitle": "Broken Link Checker",
-        "version": "1.0.0",
+        "version": "1.1.0",
         "description": "Website URL, Markdown file path, or local documentation directory",
         "homepage": "https://github.com/MrHacker-X/linkaudit",
         "author": "MrHacker-X",
